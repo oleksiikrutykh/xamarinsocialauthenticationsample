@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SocialTest.SocailAuthPage">
+    <StackLayout>
+        <Button Text="Authenticate Facebook (Native)"
+                Clicked="AuthenticateFacebookNative"
+                HorizontalOptions="Center"
+                VerticalOptions="Start">
+
+        </Button>
+
+        <Button Text="Authenticate Facebook"
+                Clicked="AuthenticateFacebook"
+                HorizontalOptions="Center"
+                VerticalOptions="Start">
+
+        </Button>
+
+        <Button Text="Authenticate Twitter"
+                Clicked="AuthenticateTwitter"
+                HorizontalOptions="Center"
+                VerticalOptions="Start">
+
+        </Button>
+
+        <Button Text="Authenticate Google+"
+                Clicked="AuthenticateGooglePlus"
+                HorizontalOptions="Center"
+                VerticalOptions="Start">
+
+        </Button>
+    </StackLayout>
+</ContentPage>
